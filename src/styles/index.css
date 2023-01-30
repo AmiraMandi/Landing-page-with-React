@@ -1,12 +1,31 @@
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.navbar-nav {
+    margin-right: auto;
+}
 
-*/
+.jumbotron {
+    background-color: rgb(133, 127, 127);
+    height: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler {
+    position: left;
+
+}
+
+.navbar-brand {
+    margin-right: 10%;
+}
+
+.navbar-nav {
+    margin-left: 65%;
+}
